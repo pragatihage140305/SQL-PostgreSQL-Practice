@@ -67,3 +67,40 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Learned how to remove a column using `ALTER TABLE ... DROP COLUMN`.
 - Learned how to delete a table using `DROP TABLE`.
 - Learned how to delete a database using `DROP DATABASE`.
+
+---
+
+## ✅ Day 4 - Data Types and Constraints
+
+### Topics Covered
+
+#### Data Types
+- INT / INTEGER
+- VARCHAR
+- TIMESTAMP
+
+#### Constraints
+- PRIMARY KEY
+- CHECK
+- DEFAULT
+
+### Practical Work
+
+- Created `users` table.
+- Used different SQL data types.
+- Applied PRIMARY KEY constraint.
+- Applied CHECK constraint (`age >= 18`).
+- Applied DEFAULT constraint (`CURRENT_TIMESTAMP`).
+- Inserted records into the `users` table.
+- Retrieved records using `SELECT *`.
+
+### Files
+
+- 4_DATA TYPES AND CONSTRAINTS.sql
+
+### What I Learned
+
+- Learned how to use SQL data types.
+- Learned how constraints maintain data integrity.
+- Practiced creating tables with constraints.
+- Inserted and retrieved data successfully.
