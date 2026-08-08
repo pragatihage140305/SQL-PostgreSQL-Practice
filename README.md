@@ -141,3 +141,15 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Learned how to use WHERE with UPDATE.
 - Learned how to use LIKE for pattern matching.
 - Learned how to sort data using ORDER BY.
+
+
+### Practical Work
+
+- Created `users` table.
+- Inserted multiple records.
+- Selected specific columns using SELECT.
+- Updated data using the pgAdmin toolbar.
+- Used WHERE condition for updating specific records.
+- Used LIKE for pattern matching.
+- Sorted data using ORDER BY.
+- Used ASC for ascending order.
