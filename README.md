@@ -104,3 +104,40 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Learned how constraints maintain data integrity.
 - Practiced creating tables with constraints.
 - Inserted and retrieved data successfully.
+
+
+---
+
+## ✅ Day 5 - SELECT, UPDATE and ORDER BY
+
+### Topics Covered
+
+- SELECT
+- UPDATE
+- WHERE
+- LIKE
+- ORDER BY
+- ASC
+
+### Practical Work
+
+- Created `users` table.
+- Inserted multiple records.
+- Selected specific columns using SELECT.
+- Updated employee/user records using UPDATE.
+- Used WHERE condition with UPDATE.
+- Used LIKE operator for email filtering.
+- Sorted records using ORDER BY.
+- Used ASC for ascending order.
+
+### Files
+
+- 5_SELECT_UPDATE_ORDER_BY.sql
+
+### What I Learned
+
+- Learned how to retrieve selected columns.
+- Learned how to update existing records.
+- Learned how to use WHERE with UPDATE.
+- Learned how to use LIKE for pattern matching.
+- Learned how to sort data using ORDER BY.
