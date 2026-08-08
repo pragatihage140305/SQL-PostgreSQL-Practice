@@ -153,3 +153,40 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Used LIKE for pattern matching.
 - Sorted data using ORDER BY.
 - Used ASC for ascending order.
+
+---
+
+## ✅ Day 6 - ALTER TABLE and Constraints
+
+### Topics Covered
+
+- ALTER TABLE
+- ALTER COLUMN
+- SET NOT NULL
+- ADD CONSTRAINT
+- CHECK Constraint
+- RENAME TABLE
+- INSERT INTO
+- ORDER BY
+- ASC
+
+### Practical Work
+
+- Changed the data type of a column using ALTER COLUMN.
+- Added NOT NULL constraint to the city column.
+- Added CHECK constraint to the age column.
+- Inserted new records into the table.
+- Renamed the `users` table to `customers`.
+- Retrieved and sorted data using ORDER BY.
+
+### Files
+
+- 6_ALTER_TABLE_AND_CONSTRAINTS.sql
+
+### What I Learned
+
+- Learned how to modify an existing table using ALTER TABLE.
+- Learned how to change column data types.
+- Learned how to add NOT NULL and CHECK constraints.
+- Learned how to rename a table.
+- Learned how to sort records using ORDER BY.
