@@ -190,3 +190,42 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Learned how to add NOT NULL and CHECK constraints.
 - Learned how to rename a table.
 - Learned how to sort records using ORDER BY.
+
+---
+
+## ✅ Day 7 - SQL Arithmetic Operations and Salary Calculations
+
+### Topics Covered
+
+- Arithmetic Operators
+- Column Calculations
+- AS (Alias)
+- Salary Calculations
+- Bonus Calculation
+- Annual Salary
+- Increment Salary
+- New Salary
+
+### Practical Work
+
+- Created an `employees` table.
+- Inserted employee records into the table.
+- Retrieved employee data using `SELECT`.
+- Calculated a 10% bonus based on salary.
+- Calculated annual salary using monthly salary.
+- Calculated a 5% salary increment.
+- Calculated the new salary after increment.
+- Used column aliases to give meaningful names to calculated columns.
+
+### Files
+
+- 7_SQL_ARITHMETIC_OPERATIONS_AND_SALARY_CALCULATIONS.sql
+
+### What I Learned
+
+- Learned how to perform arithmetic calculations in SQL.
+- Learned how to calculate bonus using salary.
+- Learned how to calculate annual salary.
+- Learned how to calculate salary increments.
+- Learned how to create calculated columns using `AS`.
+- Practiced using mathematical operators such as `*` and `+` in SQL.
