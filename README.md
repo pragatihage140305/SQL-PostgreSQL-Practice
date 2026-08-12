@@ -193,7 +193,32 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 
 ---
 
-## ✅ Day 7 - SQL Arithmetic Operations and Salary Calculations
+---
+
+## ✅ Day 7 - SQL Assignment 01
+
+### Practical Work
+
+- Practiced different SQL queries.
+- Used SELECT statements.
+- Used UPDATE queries.
+- Used DELETE queries.
+- Used ALTER TABLE commands.
+- Practiced filtering and modifying employee data.
+
+### Files
+
+- `7_ASSIMENT_1.sql`
+
+### What I Learned
+
+- Practiced the SQL concepts learned so far.
+- Improved understanding of SELECT, UPDATE, DELETE, and ALTER TABLE.
+- Solved SQL practice questions independently.
+
+---
+
+## ✅ Day 8 - SQL Arithmetic Operations and Salary Calculations
 
 ### Topics Covered
 
@@ -215,23 +240,22 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Calculated annual salary using monthly salary.
 - Calculated a 5% salary increment.
 - Calculated the new salary after increment.
-- Used column aliases to give meaningful names to calculated columns.
+- Used column aliases for calculated columns.
 
 ### Files
 
-- 7_SQL_ARITHMETIC_OPERATIONS_AND_SALARY_CALCULATIONS.sql
+- `8_SQL Arithmetic Operations and Salary Calculations.sql`
 
 ### What I Learned
 
 - Learned how to perform arithmetic calculations in SQL.
-- Learned how to calculate bonus using salary.
-- Learned how to calculate annual salary.
+- Learned how to calculate bonus and annual salary.
 - Learned how to calculate salary increments.
-- Learned how to create calculated columns using `AS`.
-- Practiced using mathematical operators such as `*` and `+` in SQL.
+- Practiced using `*` and `+` operators.
+
 ---
 
-## ✅ Day 8 - Comparison Operators
+## ✅ Day 9 - Comparison Operators
 
 ### Topics Covered
 
@@ -245,25 +269,23 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 ### Practical Work
 
 - Practiced comparison operators in SQL.
-- Compared employee salaries.
-- Compared employee ages.
+- Compared employee salaries and ages.
 - Retrieved records based on specific conditions.
 - Used comparison operators with the `WHERE` clause.
 
 ### Files
 
-- `7_COMPARISON_OPERATORS.sql`
+- `9_COMPARISION OPERATOR.sql`
 
 ### What I Learned
 
 - Learned how to compare values in SQL.
 - Learned how to filter records using comparison operators.
-- Practiced using comparison operators with numeric and text data.
-
+- Practiced comparison operators with the `WHERE` clause.
 
 ---
 
-## ✅ Day 9 - Logical Operators
+## ✅ Day 10 - Logical Operators
 
 ### Topics Covered
 
@@ -276,19 +298,17 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 ### Practical Work
 
 - Practiced logical operators in SQL.
-- Used `AND` to apply multiple conditions together.
-- Used `OR` to match any one of multiple conditions.
-- Used `NOT` to exclude specific conditions.
+- Used `AND` to apply multiple conditions.
+- Used `OR` to match multiple conditions.
+- Used `NOT` to exclude conditions.
 - Combined logical operators with the `WHERE` clause.
-- Filtered employee records using multiple conditions.
 
 ### Files
 
-- `9_LOGICAL_OPERATORS.sql`
+- `10_LOGICAL OPERATOR.sql`
 
 ### What I Learned
 
-- Learned how to combine multiple conditions in SQL.
 - Learned how to use `AND`, `OR`, and `NOT`.
-- Learned how to filter data using multiple conditions.
-- Practiced logical operators with the `WHERE` clause.
+- Learned how to combine multiple conditions.
+- Practiced filtering data using logical operators.
