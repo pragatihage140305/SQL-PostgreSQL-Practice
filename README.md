@@ -229,3 +229,33 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Learned how to calculate salary increments.
 - Learned how to create calculated columns using `AS`.
 - Practiced using mathematical operators such as `*` and `+` in SQL.
+---
+
+## ✅ Day 8 - Comparison Operators
+
+### Topics Covered
+
+- Equal to `=`
+- Not equal to `<>`
+- Greater than `>`
+- Less than `<`
+- Greater than or equal to `>=`
+- Less than or equal to `<=`
+
+### Practical Work
+
+- Practiced comparison operators in SQL.
+- Compared employee salaries.
+- Compared employee ages.
+- Retrieved records based on specific conditions.
+- Used comparison operators with the `WHERE` clause.
+
+### Files
+
+- `7_COMPARISON_OPERATORS.sql`
+
+### What I Learned
+
+- Learned how to compare values in SQL.
+- Learned how to filter records using comparison operators.
+- Practiced using comparison operators with numeric and text data.
