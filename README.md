@@ -259,3 +259,36 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Learned how to compare values in SQL.
 - Learned how to filter records using comparison operators.
 - Practiced using comparison operators with numeric and text data.
+
+
+---
+
+## ✅ Day 9 - Logical Operators
+
+### Topics Covered
+
+- AND
+- OR
+- NOT
+- Combining Multiple Conditions
+- WHERE Clause
+
+### Practical Work
+
+- Practiced logical operators in SQL.
+- Used `AND` to apply multiple conditions together.
+- Used `OR` to match any one of multiple conditions.
+- Used `NOT` to exclude specific conditions.
+- Combined logical operators with the `WHERE` clause.
+- Filtered employee records using multiple conditions.
+
+### Files
+
+- `9_LOGICAL_OPERATORS.sql`
+
+### What I Learned
+
+- Learned how to combine multiple conditions in SQL.
+- Learned how to use `AND`, `OR`, and `NOT`.
+- Learned how to filter data using multiple conditions.
+- Practiced logical operators with the `WHERE` clause.
