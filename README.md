@@ -312,3 +312,36 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Learned how to use `AND`, `OR`, and `NOT`.
 - Learned how to combine multiple conditions.
 - Practiced filtering data using logical operators.
+
+---
+
+## ✅ Day 11 - BETWEEN, LIKE and IN Operators
+
+### Topics Covered
+
+- BETWEEN
+- LIKE
+- IN
+- Range Filtering
+- Pattern Matching
+- Multiple Value Filtering
+
+### Practical Work
+
+- Retrieved employees whose salary is between `40000` and `60000` using the `BETWEEN` operator.
+- Added a new `email_address` column to the `employees` table.
+- Updated email addresses for existing employees.
+- Used the `LIKE` operator to filter employees based on email address patterns.
+- Used the `IN` operator to retrieve employees from multiple departments.
+
+### Files
+
+- `11_BETWEEN_LIKE_IN_OPERATORS.sql`
+
+### What I Learned
+
+- Learned how to use `BETWEEN` to filter values within a range.
+- Learned how to use `LIKE` for pattern matching.
+- Learned how `%` works as a wildcard with `LIKE`.
+- Learned how to use `IN` to filter multiple values.
+- Practiced filtering employee records using different SQL operators.
