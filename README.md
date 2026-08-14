@@ -382,3 +382,38 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Practiced ascending and descending sorting using `ASC` and `DESC`.
 - Learned how to limit the number of records using `LIMIT`.
 - Learned how to find and count unique values using `DISTINCT`.
+
+---
+
+## ✅ Day 13 - Set Operators in SQL
+
+### Topics Covered
+
+- UNION
+- UNION ALL
+- INTERSECT
+- EXCEPT
+
+### Practical Work
+
+- Created the `students_2023` table.
+- Inserted student records for the year 2023.
+- Created the `students_2024` table.
+- Inserted student records for the year 2024.
+- Retrieved records from both tables using `SELECT`.
+- Used `UNION` to combine results and remove duplicate records.
+- Used `UNION ALL` to combine results while keeping duplicate records.
+- Used `INTERSECT` to find common records between both tables.
+- Used `EXCEPT` to find records present in `students_2023` but not in `students_2024`.
+
+### Files
+
+- `13_SET_OPERATORS.sql`
+
+### What I Learned
+
+- Learned how to combine results from multiple tables using `UNION`.
+- Learned the difference between `UNION` and `UNION ALL`.
+- Learned how to find common records using `INTERSECT`.
+- Learned how to find different records using `EXCEPT`.
+- Practiced working with multiple tables using SQL set operators.
