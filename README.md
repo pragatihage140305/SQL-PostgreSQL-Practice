@@ -417,3 +417,46 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Learned how to find common records using `INTERSECT`.
 - Learned how to find different records using `EXCEPT`.
 - Practiced working with multiple tables using SQL set operators.
+
+---
+
+## ✅ Day 14 - Aggregate Functions in SQL
+
+### Topics Covered
+
+- SUM()
+- COUNT()
+- AVG()
+- MAX()
+- MIN()
+- Aggregate Functions
+- WHERE Clause
+- LIKE Operator
+
+### Practical Work
+
+- Created a `products` table.
+- Added product details such as product name, category, price, quantity, added date, and discount rate.
+- Inserted multiple product records into the table.
+- Retrieved all product records using `SELECT *`.
+- Calculated the total quantity of all products using `SUM()`.
+- Calculated the total quantity of products based on specific conditions.
+- Counted the total number of products using `COUNT()`.
+- Used `COUNT()` with the `LIKE` operator to count matching products.
+- Calculated the average product price using `AVG()`.
+- Calculated the average price based on specific conditions.
+- Found the maximum product price using `MAX()`.
+- Found the minimum product price using `MIN()`.
+
+### Files
+
+- `14_AGGREGATE_FUNCTIONS.sql`
+
+### What I Learned
+
+- Learned how to use aggregate functions in SQL.
+- Practiced `SUM()` to calculate total values.
+- Practiced `COUNT()` to count records.
+- Learned how to calculate average values using `AVG()`.
+- Learned how to find the highest and lowest values using `MAX()` and `MIN()`.
+- Practiced using aggregate functions with the `WHERE` clause.
