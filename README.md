@@ -345,3 +345,40 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Learned how `%` works as a wildcard with `LIKE`.
 - Learned how to use `IN` to filter multiple values.
 - Practiced filtering employee records using different SQL operators.
+
+
+---
+
+## ✅ Day 12 - NULL, ORDER BY, LIMIT and DISTINCT
+
+### Topics Covered
+
+- NULL
+- IS NULL
+- ORDER BY
+- ASC
+- DESC
+- LIMIT
+- DISTINCT
+- COUNT
+
+### Practical Work
+
+- Retrieved employee records from the `employees` table.
+- Practiced checking for `NULL` values using `IS NULL`.
+- Sorted employee records based on salary using `ORDER BY`.
+- Used `ASC` and `DESC` for sorting data.
+- Retrieved the top 5 employees based on salary using `LIMIT`.
+- Counted unique departments using `COUNT(DISTINCT department)`.
+
+### Files
+
+- `12_NULL_ORDERBY_LIMIT_DISTINCT.sql`
+
+### What I Learned
+
+- Learned how to check `NULL` values using `IS NULL`.
+- Learned how to sort records using `ORDER BY`.
+- Practiced ascending and descending sorting using `ASC` and `DESC`.
+- Learned how to limit the number of records using `LIMIT`.
+- Learned how to find and count unique values using `DISTINCT`.
