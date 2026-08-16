@@ -569,3 +569,40 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Practiced adding time intervals to dates.
 - Learned how to retrieve the current time using `CURRENT_TIME`.
 - Learned how to convert text into a date using `TO_DATE()`.
+
+---
+
+## ✅ Day 18 - Conditional Functions (CASE) in SQL
+
+### Topics Covered
+
+- CASE
+- WHEN
+- THEN
+- ELSE
+- END
+- Conditional Statements
+- CASE with Comparison Operators
+- CASE with BETWEEN
+- CASE with LIKE
+
+### Practical Work
+
+- Classified products into different price categories using `CASE`.
+- Used conditions to identify expensive, moderate, and affordable products.
+- Classified products based on available quantity.
+- Identified products as `In Stock`, `Limited Stock`, or `Out of Stock`.
+- Used `CASE` with the `LIKE` operator to categorize products based on their category.
+- Applied multiple conditions using `WHEN` and `THEN`.
+
+### Files
+
+- `18_CONDITIONAL_FUNCTIONS_CASE_IN_SQL.sql`
+
+### What I Learned
+
+- Learned how to use the `CASE` statement in SQL.
+- Learned how to apply conditions using `WHEN` and `THEN`.
+- Learned how to provide a default result using `ELSE`.
+- Practiced categorizing data based on price and quantity.
+- Learned how to combine `CASE` with operators such as `>=`, `BETWEEN`, and `LIKE`.
