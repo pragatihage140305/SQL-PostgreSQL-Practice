@@ -460,3 +460,42 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Learned how to calculate average values using `AVG()`.
 - Learned how to find the highest and lowest values using `MAX()` and `MIN()`.
 - Practiced using aggregate functions with the `WHERE` clause.
+
+---
+
+## ✅ Day 15 - Strings in SQL
+
+### Topics Covered
+
+- String Functions
+- CONCAT()
+- UPPER()
+- LOWER()
+- LENGTH()
+- TRIM()
+- SUBSTRING()
+- REPLACE()
+
+### Practical Work
+
+- Practiced different string functions in SQL.
+- Combined multiple string values using `CONCAT()`.
+- Converted text to uppercase using `UPPER()`.
+- Converted text to lowercase using `LOWER()`.
+- Found the length of text using `LENGTH()`.
+- Removed extra spaces using `TRIM()`.
+- Extracted part of a string using `SUBSTRING()`.
+- Replaced specific text using `REPLACE()`.
+
+### Files
+
+- `15_STRINGS IN SQL.sql`
+
+### What I Learned
+
+- Learned how to work with text and string data in SQL.
+- Learned how to combine multiple columns using `CONCAT()`.
+- Practiced changing text to uppercase and lowercase.
+- Learned how to find the length of a string.
+- Learned how to extract specific parts of a string.
+- Learned how to replace text values using string functions.
