@@ -536,3 +536,36 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Learned how to extract year, month, and day using `EXTRACT()`.
 - Practiced calculating date differences using `AGE()`.
 - Learned how to format dates using `TO_CHAR()`.
+
+---
+
+## ✅ Day 17 - Date and Time Functions Part 2
+
+### Topics Covered
+
+- DATE_PART()
+- DATE_TRUNC()
+- INTERVAL
+- CURRENT_TIME
+- TO_DATE()
+
+### Practical Work
+
+- Used `DATE_PART()` to extract specific parts of a date.
+- Used `DATE_TRUNC()` to truncate dates to the beginning of a month.
+- Extracted the day of the week using `DATE_PART('isodow', added_date)`.
+- Added days to a date using `INTERVAL`.
+- Used `CURRENT_TIME` to retrieve the current time.
+- Used `TO_DATE()` to convert a string into a date format.
+
+### Files
+
+- `17_DATE_AND_TIME_FUNCTIONS_PART_2.sql`
+
+### What I Learned
+
+- Learned how to extract date parts using `DATE_PART()`.
+- Learned how to truncate dates using `DATE_TRUNC()`.
+- Practiced adding time intervals to dates.
+- Learned how to retrieve the current time using `CURRENT_TIME`.
+- Learned how to convert text into a date using `TO_DATE()`.
