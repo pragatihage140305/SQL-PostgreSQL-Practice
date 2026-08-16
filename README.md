@@ -499,3 +499,40 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Learned how to find the length of a string.
 - Learned how to extract specific parts of a string.
 - Learned how to replace text values using string functions.
+---
+
+## ✅ Day 16 - Date and Time Functions Part 1
+
+### Topics Covered
+
+- NOW()
+- CURRENT_DATE
+- Date Difference
+- EXTRACT()
+- AGE()
+- TO_CHAR()
+- Date Formatting
+
+### Practical Work
+
+- Retrieved product records from the `products` table.
+- Used `NOW()` to get the current date and time.
+- Used `CURRENT_DATE` to get the current date.
+- Calculated the difference between the current date and `added_date`.
+- Used `EXTRACT()` to retrieve the year, month, and day from `added_date`.
+- Used `AGE()` to calculate the time difference between the current date and the product added date.
+- Used `TO_CHAR()` to format dates in a custom format.
+- Converted dates into the `DD-MONTH-YYYY` format.
+
+### Files
+
+- `16_DATE_AND_TIME_FUNCTIONS_PART_1.sql`
+
+### What I Learned
+
+- Learned how to work with date and time values in SQL.
+- Practiced using `NOW()` and `CURRENT_DATE`.
+- Learned how to calculate the difference between two dates.
+- Learned how to extract year, month, and day using `EXTRACT()`.
+- Practiced calculating date differences using `AGE()`.
+- Learned how to format dates using `TO_CHAR()`.
