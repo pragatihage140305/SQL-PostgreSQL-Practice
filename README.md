@@ -606,3 +606,39 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Learned how to provide a default result using `ELSE`.
 - Practiced categorizing data based on price and quantity.
 - Learned how to combine `CASE` with operators such as `>=`, `BETWEEN`, and `LIKE`.
+
+
+---
+
+## ✅ Day 20 - Window Functions in SQL
+
+### Topics Covered
+
+- ROW_NUMBER()
+- DENSE_RANK()
+- SUM() with OVER()
+- PARTITION BY
+- ORDER BY
+- Running Total
+
+### Practical Work
+
+- Assigned a unique row number to each product within the same category using `ROW_NUMBER()`.
+- Ranked products within each category based on price using `DENSE_RANK()`.
+- Used `PARTITION BY` to divide products into categories.
+- Used `ORDER BY price DESC` to arrange products from highest to lowest price.
+- Calculated a running total using `SUM()` with the `OVER()` clause.
+- Calculated running totals in both ascending and descending price order.
+
+### Files
+
+- `20_WINDOW_FUNCTIONS_IN_SQL.sql`
+
+### What I Learned
+
+- Learned how to use SQL Window Functions.
+- Learned how `ROW_NUMBER()` assigns a unique number to each row.
+- Learned how `DENSE_RANK()` ranks rows without skipping rank numbers for ties.
+- Learned how to use `PARTITION BY` to perform calculations within groups.
+- Learned how to calculate a running total using `SUM() OVER()`.
+- Understood the difference between normal aggregate functions and window functions.
