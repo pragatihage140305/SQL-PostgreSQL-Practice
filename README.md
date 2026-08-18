@@ -642,3 +642,47 @@ This repository contains my daily SQL practice using PostgreSQL and pgAdmin4.
 - Learned how to use `PARTITION BY` to perform calculations within groups.
 - Learned how to calculate a running total using `SUM() OVER()`.
 - Understood the difference between normal aggregate functions and window functions.
+
+
+# 🔗 SQL Joins in PostgreSQL
+
+This repository contains my SQL practice on different types of JOINs using PostgreSQL and pgAdmin 4.
+
+## 📚 Topics Covered
+
+### Part 1
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+
+### Part 2
+- FULL OUTER JOIN
+- CROSS JOIN
+- SELF JOIN
+
+---
+
+## 🛠️ Tools Used
+
+- PostgreSQL
+- pgAdmin 4
+- SQL
+- VS Code
+
+---
+
+# 🔹 PART 1 – Basic SQL Joins
+
+## 1️⃣ INNER JOIN
+
+INNER JOIN returns only the records that have matching values in both tables.
+
+### Example
+
+```sql
+SELECT e.first_name,
+       e.last_name,
+       d.department_name
+FROM employees e
+INNER JOIN department d
+ON e.department_id = d.department_id;
