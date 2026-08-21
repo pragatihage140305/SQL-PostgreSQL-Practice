@@ -686,3 +686,96 @@ SELECT e.first_name,
 FROM employees e
 INNER JOIN department d
 ON e.department_id = d.department_id;
+
+# 📚 Online Bookstore SQL Project
+
+## 📌 About the Project
+
+This project is based on an **Online Bookstore Management System** using **PostgreSQL**.
+
+The project demonstrates how SQL can be used to create and manage a relational database containing information about books, customers, and orders.
+
+The database consists of three main tables:
+
+- 📖 Books
+- 👥 Customers
+- 🛒 Orders
+
+---
+
+## 🛠️ Tools Used
+
+- PostgreSQL
+- pgAdmin 4
+- SQL
+- Git
+- GitHub
+
+---
+
+# 🗂️ Database Tables
+
+## 1. Books Table
+
+The `books` table stores information about available books.
+
+| Column Name | Description |
+|---|---|
+| book_id | Unique ID of the book |
+| title | Name of the book |
+| author | Author name |
+| genre | Genre of the book |
+| published_year | Year of publication |
+| price | Price of the book |
+| stock | Available stock |
+
+---
+
+## 2. Customers Table
+
+The `customers` table stores customer information.
+
+| Column Name | Description |
+|---|---|
+| customer_id | Unique customer ID |
+| name | Customer name |
+| email | Customer email |
+| phone | Customer phone number |
+| city | Customer city |
+| country | Customer country |
+
+---
+
+## 3. Orders Table
+
+The `orders` table stores information about customer orders.
+
+| Column Name | Description |
+|---|---|
+| order_id | Unique order ID |
+| customer_id | ID of the customer |
+| book_id | ID of the book |
+| order_date | Date of the order |
+| quantity | Number of books ordered |
+| total_amount | Total order amount |
+
+---
+
+# 🔗 Database Relationships
+
+The project uses relationships between the tables:
+
+- One customer can place multiple orders.
+- One book can appear in multiple orders.
+- The `orders` table connects the `customers` and `books` tables using foreign keys.
+
+```text
+Customers
+    │
+    │ customer_id
+    ▼
+  Orders
+    ▲
+    │ book_id
+    │
+   Books
